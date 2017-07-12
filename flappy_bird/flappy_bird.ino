@@ -43,7 +43,7 @@
 
 *******************************************************************************/
 // uncomment the line below to enable audio output
-#define enable_audio
+// #define enable_audio
 
 // compiler error handling
 #include "Compiler_Errors.h"
@@ -57,7 +57,7 @@
 // led includes
 #include <Adafruit_NeoPixel.h>
 
-#define PIN 11 // If you haven't enabled audio this must be PIN 6
+#define PIN 6 // If you haven't enabled audio this must be PIN 6
                // If you have enabled audio, change it to PIN 11
 Adafruit_NeoPixel panel = Adafruit_NeoPixel(5 * 8, PIN, NEO_GRB + NEO_KHZ800);
 
